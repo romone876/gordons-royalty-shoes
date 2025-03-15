@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login & Register - Custom Shoes</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+     <h1>Gordon's Royalty Shoes Collection</h1>
+</header>
+<body class="login-page">
+     <div class="login-container">
+        <!Login Section>
+          <div class="form-container login-form">
+               <h2>Login to Your Account</h2>
+               <form id="loginForm">
+                    <label for="login-username">Username:</label>
+                    <input type="text" id="login-username" name="username" required><br>
+
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" name="password" required><br>
+
+                    <button type="submit">Login</button>
+                    <p id="login-error-msg"></p>
+               </form>
+          </div>
+
+        <!Register Section>
+          <div class="form-container register-form">
+               <h2>Create an Account</h2>
+               <form id="registerForm">
+                    <label for="register-username">Username:</label>
+                    <input type="text" id="register-username" name="username" required><br>
+
+                    <label for="register-password">Password:</label>
+                    <input type="password" id="register-password" name="password" required><br>
+
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required><br>
+
+                    <button type="submit">Register</button>
+                    <p id="register-error-msg"></p>
+               </form>
+          </div>
+     </div>
+     <script src="login.js"></script>
+<footer>
+     <p>&copy; 2025 Gordon's Royalty Shoes. All rights reserved.</p>
+</footer>
+</body>
+</html>
