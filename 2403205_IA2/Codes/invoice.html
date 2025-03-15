@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Invoice - Custom Shoes</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+     <h1>Gordon's Royalty Shoes Collection</h1>
+</header>
+<body>
+     <div class="invoice-container">
+          <h1>Invoice</h1>
+          <p>Date: <span id="invoice-date"></span></p>
+          <div id="invoice-items">
+          </div>
+          <div id="invoice-total">
+               <p>Subtotal: $<span id="subtotal"></span></p>
+               <p>Tax: $<span id="tax"></span></p>
+               <p>Total: $<span id="total"></span></p>
+          </div>
+          <button id="checkoutBtn">Checkout</button>
+       <!Message if its successful>
+          <div id="purchase-success" style="display: none;">
+               <p>Purchase Successful!</p>
+          </div>
+          <button onclick="window.location.href='products.html'">Continue Shopping</button>
+     </div>
+     <script src="invoice.js"></script>
+<footer>
+     <p>&copy; 2025 Gordon's Royalty Shoes. All rights reserved.</p>
+     <a href="about-us.html">About Us</a>  -
+     <a href="login.html">Login</a>
+</footer>
+</body>
+</html>
